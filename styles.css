@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, #000000, #9929EA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cracha {
+    background: linear-gradient(300deg, #212121, #0000);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 15px #CC66DA;
+}
+
+.cracha:hover {
+    transform: scale(1.05);
+}
+
+.cracha img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #CC66DA;
+    margin-bottom: 15px;
+    /*animation: girar 6s linear infinite;*/
+}
+
+/*@keyframes girar {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}*/
+.cracha h1 {
+    font-size: 20px;
+    color: #9929EA;
+    margin-bottom: 10px;
+}
+
+.cracha p {
+    font-size: 14px;
+    color: #D3ECCD;
+    margin-bottom: 20px;
+}
+
+.cracha button {
+    background-color: #9929EA;
+    color: #D3ECCD;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: backgound-color 0.3s ease;
+}
+
+.cracha button:hover {
+    background-color: #0A400C;
+}
